@@ -39,7 +39,7 @@ WizardComponent {
         RadioButton {
             ButtonGroup.group: wallettypegroup
             property string wallettype: 'imported'
-            text: qsTr('Import Bitcoin addresses or private keys')
+            text: qsTr('Import Luckycoin addresses or private keys')
         }
     }
 }

@@ -702,7 +702,7 @@ class BaseWizard(Logger):
             message = ' '.join([
                 _("The type of addresses used by your wallet will depend on your seed."),
                 _("Segwit wallets use bech32 addresses, defined in BIP173."),
-                _("Dogecoin does not currently support Segwit,"),
+                _("Luckycoin does not currently support Segwit,"),
                 _("and has no plans to do so in the future")
             ])
         if choices is None:

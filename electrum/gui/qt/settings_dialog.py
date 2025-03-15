@@ -209,7 +209,7 @@ class SettingsDialog(QDialog, QtEventListener):
         # units
         units = base_units_list
         msg = (_('Base unit of your wallet.')
-               + '\n1 DOGE = 1000 mDOGE. 1 mDOGE = 1000 bits. 1 bit = 100 sat.\n'
+               + '\n1 LKY = 1000 mLKY. 1 mLKY = 1000 bits. 1 bit = 100 sat.\n'
                + _('This setting affects the Send tab, and all balance related fields.'))
         unit_label = HelpLabel(_('Base unit') + ':', msg)
         unit_combo = QComboBox()
