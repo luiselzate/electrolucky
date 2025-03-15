@@ -1,12 +1,8 @@
-# ElectroDoge - Lightweight [Dogecoin](https://github.com/dogecoin/dogecoin) client
-
-May move to [bitbucket](https://bitbucket.org/naturevault/) or [Gitlab](https://gitlab.com/giverofmemory/) due to mandatory 2FA here.
+# ElectorLucky - Lightweight [Luckycoin](https://github.com/LuckycoinOriginal/Luckycoin) client
 
 ```
-Dogecoin Devs
+Luckycoin Devs
 Fully Open Source with no conditions for everything including pictures and name
-Homepage: https://electrodoge.com
-Initial Commit: https://github.com/GlobalBoost/electrum/commit/6d7c7a1cb5c384377b24391bcbc7b797462b980a
 
 and 
 
@@ -97,7 +93,7 @@ and [for macOS](contrib/osx/README_macos.md))_
 
 Check out the code from GitHub:
 ```
-$ git clone https://github.com/GiverofMemory/electrodoge.git
+$ git clone https://github.com/luiselzate/electrolucky.git
 $ cd electrum
 $ git submodule update --init
 ```
@@ -156,12 +152,12 @@ with the web client, [web.libera.chat](https://web.libera.chat/#electrum).
 
 Uses [BIP32 address](https://en.bitcoin.it/wiki/Electrum#History) generation.
 
-If you want to migrate from Electrodoge to Dogecoin core [see here](https://bitcointalk.org/index.php?topic=5320198.0).
+If you want to migrate from Electrolucky to Luckycoin core [see here](https://bitcointalk.org/index.php?topic=5320198.0).
 
-Between [Exodus and Electrodoge](https://bitcointalk.org/index.php?topic=5325562.0).
+Between [Exodus and Electrolucky](https://bitcointalk.org/index.php?topic=5325562.0).
 
 ## To Do
 
-- xPub is corrected for dogecoin but others like yPub and zPub have not been modified from bitcoin yet.
+- xPub is corrected for luckycoin but others like yPub and zPub have not been modified from bitcoin yet.
 
 - Checkpoints need to be updated from BTSY and would be nice to ignore updates to checkpoints folder from upstream, .gitignore might help.
