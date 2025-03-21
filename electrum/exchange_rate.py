@@ -330,7 +330,7 @@ def get_exchanges_and_currencies():
     return d
 
 
-CURRENCIES = get_exchanges_and_currencies()
+CURRENCIES = [] #get_exchanges_and_currencies()
 
 
 def get_exchanges_by_ccy(history=True):
