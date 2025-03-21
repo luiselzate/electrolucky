@@ -396,13 +396,14 @@ class SettingsDialog(QDialog, QtEventListener):
         ex_combo = QComboBox()
 
         def update_currencies():
-            if not self.fx:
-                return
-            currencies = sorted(self.fx.get_currencies(self.fx.get_history_config()))
-            ccy_combo.clear()
-            ccy_combo.addItems([_('None')] + currencies)
-            if self.fx.is_enabled():
-                ccy_combo.setCurrentIndex(ccy_combo.findText(self.fx.get_currency()))
+            return
+            #if not self.fx:
+            #    return
+            #currencies = sorted(self.fx.get_currencies(self.fx.get_history_config()))
+            #ccy_combo.clear()
+            #ccy_combo.addItems([_('None')] + currencies)
+            #if self.fx.is_enabled():
+            #    ccy_combo.setCurrentIndex(ccy_combo.findText(self.fx.get_currency()))
 
         def update_history_cb():
             if not self.fx: return
