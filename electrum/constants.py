@@ -73,11 +73,11 @@ class BitcoinMainnet(AbstractNet):
     NET_NAME = "mainnet"
     TESTNET = False
     WIF_PREFIX = 0x9e
-    ADDRTYPE_P2PKH = 30
-    ADDRTYPE_P2SH = 22
+    ADDRTYPE_P2PKH = 47
+    ADDRTYPE_P2SH = 5
     SEGWIT_HRP = "doge"
     BOLT11_HRP = SEGWIT_HRP
-    GENESIS = "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691"
+    GENESIS = "9b7bce58999062b63bfb18586813c42491fa32f4591d8d3043cb4fa9e551541b"
     DEFAULT_PORTS = {'t': '50001', 's': '50002'}
     DEFAULT_SERVERS = read_json('servers.json', {})
     CHECKPOINTS = read_json('checkpoints.json', [])
@@ -105,9 +105,7 @@ class BitcoinMainnet(AbstractNet):
     BIP44_COIN_TYPE = 0
     LN_REALM_BYTE = 0
     LN_DNS_SEEDS = [
-        'nodes.lightning.directory.',
-        'lseed.bitcoinstats.com.',
-        'lseed.darosior.ninja',
+        'seed.luckycoinblockexplorer.com.',
     ]
 
 
