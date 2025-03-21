@@ -453,7 +453,7 @@ class SettingsDialog(QDialog, QtEventListener):
         def on_history(checked):
             if not self.fx: return
             self.fx.set_history_config(checked)
-            update_exchanges()
+            #update_exchanges()
             if self.fx.is_enabled() and checked:
                 self.fx.trigger_update()
             update_history_capgains_cb()
@@ -473,7 +473,7 @@ class SettingsDialog(QDialog, QtEventListener):
         update_history_cb()
         update_history_capgains_cb()
         update_fiat_address_cb()
-        update_exchanges()
+        #update_exchanges()
         ccy_combo.currentIndexChanged.connect(on_currency)
         hist_checkbox.stateChanged.connect(on_history)
         hist_capgains_checkbox.stateChanged.connect(on_history_capgains)
