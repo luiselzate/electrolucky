@@ -442,7 +442,7 @@ class SettingsDialog(QDialog, QtEventListener):
             if b and ccy != self.fx.ccy:
                 self.fx.set_currency(ccy)
             update_history_cb()
-            update_exchanges()
+            #update_exchanges()
             self.app.update_fiat_signal.emit()
 
         def on_exchange(idx):
