@@ -239,10 +239,6 @@
         "ZMW",
         "ZRX",
         "ZWL"
-<<<<<<< HEAD
-	]
-}
-=======
     ],
     "CointraderMonitor": [
         "BRL"
@@ -444,4 +440,4 @@
         "ZAR"
     ]
 }
->>>>>>> ae15c0527b40aec4929ccf1eb65433b14bc6a435
+
