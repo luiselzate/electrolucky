@@ -72,7 +72,7 @@ class BitcoinMainnet(AbstractNet):
 
     NET_NAME = "mainnet"
     TESTNET = False
-    WIF_PREFIX = 0x9e
+    WIF_PREFIX = 0xaf
     ADDRTYPE_P2PKH = 47
     ADDRTYPE_P2SH = 5
     SEGWIT_HRP = "doge"
